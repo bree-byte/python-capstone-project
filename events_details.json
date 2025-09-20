@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Test Event",
+        "host": "Artist",
+        "tribe": "Music Fans",
+        "location": "Nairobi",
+        "date": "2025-10-01",
+        "ticket_link": "https://example.com"
+    },
+    {
+        "title": "Concert",
+        "host": "Band",
+        "tribe": "Rock Fans",
+        "location": "Mombasa",
+        "date": "2025-11-01",
+        "ticket_link": "https://tickets.com"
+    }
+]
