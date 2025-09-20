@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import datetime
 import json
-
+import os
 app = Flask(__name__)
 CORS(app)  # Allow requests from lovable frontend
 
