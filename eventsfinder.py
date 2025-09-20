@@ -52,7 +52,7 @@ class Event:
 ## JSON is already imported
 
 #with open("events_details.json", "w") as f:##now f is the created file
-    #json.dump([event.event_details_dictionary()], f,)##getting the details from the objects and saving them in dictionary form
+    #json.dump([event.to_dict()], f,)##getting the details from the objects and saving them in dictionary form
 #I had used the above but I realized that it only allows one event to the file,,,as any update will ovewrite the other events
 # so let's allow for more events to be updated
 # start with an empty list
@@ -70,7 +70,7 @@ class Event:
     #events_list = []
 
 # we add new event
-#events_list.append(event.event_details_dictionary())
+#events_list.append(event.to_dict())
 
 #print(events_list)
 
@@ -90,12 +90,10 @@ def add_event():
     try:
         with open("events_details.json", "r") as f:
             content = f.read().strip()
-            if content:
-                events_list = json.loads(content)
+        if content:
+            events_list = json.loads(content)
     except FileNotFoundError:
         events_list = []
-
-    
     events_list.append(event.to_dict())
     with open("events_details.json", "w") as f:
         json.dump(events_list, f, indent=4)
@@ -103,8 +101,11 @@ def add_event():
 
 @app.route('/view_events', methods=['GET'])
 def get_events():
-    with open("events_details.json", "r") as f:
-        events_list = json.load(f)
+    try:
+        with open("events_details.json", "r") as f:
+            events_list = json.load(f)
+    except FileNotFoundError:
+        events_list = []
     return jsonify(events_list), 200
 
 @app.route('/')
@@ -122,9 +123,7 @@ def view_events():
             events_list = json.load(f)
     except FileNotFoundError:
         events_list = []
-        print(events_list)
-        return
-    print(events_list)
+    
     for i, event in enumerate(events_list, start=1):
         print(f"\nEvent {i}:")
         print(f"Title: {event['title']}")
