@@ -1,1 +1,73 @@
-# python-capstone-project
+# Safari Beats - Event Management App
+
+Welcome to 'Safari Beats', a vibrant event management platform celebrating Kenyan cultural heritage through music events. This app allows hosts to add event details and fans to browse and filter events, featuring a colorful design inspired by African rhythms.
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Description
+Safari Beats connects artists and fans by providing a platform to create, manage, and discover music events with a Kenyan cultural twist. The app includes a backend to store event data and a frontend, built with Lovable, for an engaging user experience.
+
+## Features
+- **Host Events**: Add events with details like title, host, tribe, location, date, and ticket link.
+- **Browse Events**: View all events with filters by title, tribe, host name, location, or date.
+- **Homepage**: A welcoming page with featured events and navigation options.
+- **Contact Page**: Share feedback or get in touch with the team.
+- **Responsive Design**: Accessible on desktop and mobile devices.
+- **Vibrant Theme**: Colorful Kenyan heritage design with a live concert background and a cultural icon.
+
+## Tech Stack
+- **Backend**: Flask, Flask-CORS, jsonify (Python 3.x)
+- **Frontend**: React with Tailwind CSS, built using Lovable for web app development
+- **Database**: JSON file for event storage
+- **Hosting**: Render for backend
+- **Development**: Git and GitHub
+
+## Installation
+### Prerequisites
+- Python 3.x
+- Node.js and npm
+- Git
+
+### Steps
+1. **Clone the Repository**: Download the project files to your computer.
+2. **Set Up Backend**: Install required dependencies and run the backend locally if needed.
+3. **Set Up Frontend**: Install frontend dependencies and start the development server.
+
+Follow the folder structure in the repository for specific setup instructions.
+
+## Usage
+- **Add an Event**: Use the "Host Events" section to input and submit event details.
+- **Browse Events**: Explore events and use the dropdown or search to filter results.
+- **View Homepage**: Check out featured events and navigate the site.
+- **Contact**: Visit the "Contact" page to send messages or find contact information.
+
+## API Endpoints
+- **GET /view_events**: Retrieve a list of all events.
+- **POST /add_event**: Submit a new event with the required details.
+
+## Deployment
+- **Backend**: Hosted on Render with automatic updates from GitHub.
+- **Frontend**: Exported from Lovable to GitHub and deployed on Vercel or Netlify for a live experience.
+
+## Contributing
+1. Fork the repository to create your own copy.
+2. Create a new branch for your changes.
+3. Commit your updates with a descriptive message.
+4. Push your branch and open a Pull Request for review.
+
+## License
+This project is released under the MIT License.
+
+## Contact
+- Email: brendachebet2030@gmail.com
+- GitHub: [bree-byte](https://github.com/bree-byte)
