@@ -14,5 +14,13 @@
         "location": "Mombasa",
         "date": "2025-11-01",
         "ticket_link": "https://tickets.com"
+    },
+    {
+        "title": "Concert",
+        "host": "Band",
+        "tribe": "Rock Fans",
+        "location": "Mombasa",
+        "date": "2025-11-01",
+        "ticket_link": "https://tickets.com"
     }
 ]
