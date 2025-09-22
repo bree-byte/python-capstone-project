@@ -27,7 +27,7 @@ Safari Beats connects artists and fans by providing a platform to create, manage
 
 ## Tech Stack
 - **Backend**: Flask, Flask-CORS, jsonify (Python 3.x)
-- **Frontend**: React with Tailwind CSS, built using Lovable for web app development
+- **Frontend**: React with Tailwind CSS, built using Meku.dev for web app development
 - **Database**: JSON file for event storage
 - **Hosting**: Render for backend
 - **Development**: Git and GitHub
@@ -57,7 +57,7 @@ Follow the folder structure in the repository for specific setup instructions.
 
 ## Deployment
 - **Backend**: Hosted on Render with automatic updates from GitHub.
-- **Frontend**: Exported from Lovable to GitHub and deployed on Vercel or Netlify for a live experience.
+- **Frontend**: Built with Meku.dev and deployed directly on its platform for a seamless live experience..
 
 ## Contributing
 1. Fork the repository to create your own copy.
