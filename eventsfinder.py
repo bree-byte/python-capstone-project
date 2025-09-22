@@ -19,7 +19,7 @@ CORS(app)  # Allow requests from lovable frontend
 from dotenv import load_dotenv
 load_dotenv()
 
-SUPABAw_URL = os.environ.get('SUPABASE_URL')
+SUPABASE_URL = os.environ.get('SUPABASE_URL')
 SUPABASE_KEY = os.environ.get('SUPABASE_KEY')
 
 if not SUPABASE_URL or not SUPABASE_KEY:
