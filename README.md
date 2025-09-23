@@ -17,7 +17,7 @@ Welcome to 'Safari Beats', a vibrant event management platform celebrating Kenya
 ## Description
 Safari Beats connects artists and fans by providing a platform to create, manage, and discover music events with a Kenyan cultural twist. The app includes a Flask backend integrated with Supabase for robust event data storage and a frontend, built with Meku.dev, for an engaging user experience. Dates are now handled correctly with ISO format support.
 
-d<img width="764" height="436" alt="flowchart-image" src="https://github.com/user-attachments/assets/5df17e89-37b3-487d-b971-5f649e5fabe3" />
+<img width="764" height="436" alt="flowchart-image" src="https://github.com/user-attachments/assets/5df17e89-37b3-487d-b971-5f649e5fabe3" />
 ## Features
 - **Host Events**: Add events with details like title, host, tribe, event venue, start date, end date, and ticket link.
 - **Browse Events**: View all events with advanced filters by title, host, event venue, or date range.
