@@ -15,20 +15,20 @@ Welcome to 'Safari Beats', a vibrant event management platform celebrating Kenya
 - [Contact](#contact)
 
 ## Description
-Safari Beats connects artists and fans by providing a platform to create, manage, and discover music events with a Kenyan cultural twist. The app includes a backend to store event data and a frontend, built with Lovable, for an engaging user experience.
+Safari Beats connects artists and fans by providing a platform to create, manage, and discover music events with a Kenyan cultural twist. The app includes a Flask backend integrated with Supabase for robust event data storage and a frontend, built with Meku.dev, for an engaging user experience. Dates are now handled correctly with ISO format support.
 
 ## Features
-- **Host Events**: Add events with details like title, host, tribe, location, date, and ticket link.
-- **Browse Events**: View all events with filters by title, tribe, host name, location, or date.
+- **Host Events**: Add events with details like title, host, tribe, event venue, start date, end date, and ticket link.
+- **Browse Events**: View all events with advanced filters by title, host, event venue, or date range.
 - **Homepage**: A welcoming page with featured events and navigation options.
 - **Contact Page**: Share feedback or get in touch with the team.
 - **Responsive Design**: Accessible on desktop and mobile devices.
 - **Vibrant Theme**: Colorful Kenyan heritage design with a live concert background and a cultural icon.
 
 ## Tech Stack
-- **Backend**: Flask, Flask-CORS, jsonify (Python 3.x)
+- **Backend**: Flask, Flask-CORS, Supabase (Python 3.x)
 - **Frontend**: React with Tailwind CSS, built using Meku.dev for web app development
-- **Database**: JSON file for event storage
+- **Database**: Supabase for event storage
 - **Hosting**: Render for backend
 - **Development**: Git and GitHub
 
@@ -40,24 +40,23 @@ Safari Beats connects artists and fans by providing a platform to create, manage
 
 ### Steps
 1. **Clone the Repository**: Download the project files to your computer.
-2. **Set Up Backend**: Install required dependencies and run the backend locally if needed.
+2. **Set Up Backend**: Install required dependencies (`pip install flask flask-cors python-dotenv supabase`) and configure `.env` with `SUPABASE_URL` and `SUPABASE_KEY`.
 3. **Set Up Frontend**: Install frontend dependencies and start the development server.
-
-Follow the folder structure in the repository for specific setup instructions.
+   - Follow the folder structure in the repository for specific setup instructions.
 
 ## Usage
-- **Add an Event**: Use the "Host Events" section to input and submit event details.
-- **Browse Events**: Explore events and use the dropdown or search to filter results.
+- **Add an Event**: Use the "Add Event" form to input and submit event details.
+- **Browse Events**: Explore events and use the filters or search to refine results.
 - **View Homepage**: Check out featured events and navigate the site.
 - **Contact**: Visit the "Contact" page to send messages or find contact information.
 
 ## API Endpoints
-- **GET /view_events**: Retrieve a list of all events.
-- **POST /add_event**: Submit a new event with the required details.
+- **GET /view_events**: Retrieve a list of all events from Supabase.
+- **POST /add_event**: Submit a new event with required details to Supabase.
 
 ## Deployment
 - **Backend**: Hosted on Render with automatic updates from GitHub.
-- **Frontend**: Built with Meku.dev and deployed directly on its platform for a seamless live experience..
+- **Frontend**: Built with Meku.dev and deployed directly on its platform for a seamless live experience.
 
 ## Contributing
 1. Fork the repository to create your own copy.
