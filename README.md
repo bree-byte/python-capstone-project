@@ -19,8 +19,7 @@ Safari Beats connects artists and fans by providing a platform to create, manage
 
 d<img width="764" height="436" alt="flowchart-image" src="https://github.com/user-attachments/assets/5df17e89-37b3-487d-b971-5f649e5fabe3" />
 ## Features
-- **Host Events**: Add events with d<img width="764" height="436" alt="flowchart-image" src="https://github.com/user-attachments/assets/5df17e89-37b3-487d-b971-5f649e5fabe3" />
-etails like title, host, tribe, event venue, start date, end date, and ticket link.
+- **Host Events**: Add events with details like title, host, tribe, event venue, start date, end date, and ticket link.
 - **Browse Events**: View all events with advanced filters by title, host, event venue, or date range.
 - **Homepage**: A welcoming page with featured events and navigation options.
 - **Contact Page**: Share feedback or get in touch with the team.
