@@ -1,6 +1,7 @@
 # Safari Beats - Event Management App
 
 Welcome to 'Safari Beats', a vibrant event management platform celebrating Kenyan cultural heritage through music events. This app allows hosts to add event details and fans to browse and filter events, featuring a colorful design inspired by African rhythms.
+Read more https://brendachebyte.hashnode.dev/safari-beats-unifying-kenyas-cultural-festivals-through-a-centralized-event-management-platform?showSharer=true
 
 ## Table of Contents
 - [Description](#description)
